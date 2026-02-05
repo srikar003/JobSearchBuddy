@@ -2,12 +2,17 @@
 
 JobSearchBuddy is a **local, privacy-first** prototype that helps job seekers tailor their resume to a job description using **Ollama** (local LLM). It reads multiple resumes from a folder, builds evidence from all of them, rewrites only specific sections using focused prompts, and injects the rewritten sections into a chosen “template resume” to preserve formatting/structure.
 
-✅ Runs locally (Ollama)
-✅ Uses multiple resumes as evidence
-✅ Rewrites only **WORK EXPERIENCE** + **ACADEMIC EDUCATION**
-✅ Preserves all other sections from the chosen template resume
-✅ Exports output to `.docx`
-✅ CLI-first
+✅ Runs locally (Ollama).
+
+✅ Uses multiple resumes as evidence.
+
+✅ Rewrites only **WORK EXPERIENCE** + **ACADEMIC EDUCATION**.
+
+✅ Preserves all other sections from the chosen template resume.
+
+✅ Exports output to `.docx`.
+
+✅ CLI-first.
 
 ---
 
@@ -241,7 +246,7 @@ ollama pull llama3.1:8b
 
 ---
 
-## Next Improvements (Optional)
+## Next Improvements
 
 * Improve template selection (choose the resume that best matches your preferred format)
 * Add keyword match scoring (ATS score report)
