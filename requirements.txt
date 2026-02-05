@@ -1,0 +1,10 @@
+﻿fastapi
+uvicorn[standard]
+python-docx
+pdfplumber
+pypdf
+faiss-cpu
+numpy
+tqdm
+rich
+requests

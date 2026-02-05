@@ -1,0 +1,239 @@
+{
+  "dim": 768,
+  "ids": [
+    "resumes\\AI Resume - Srikar Vuppala.pdf|p1|o1|s0",
+    "resumes\\AI Resume - Srikar Vuppala.pdf|p1|o1|s1",
+    "resumes\\AI Resume - Srikar Vuppala.pdf|p2|o2|s0",
+    "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf|p1|o1|s0",
+    "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf|p1|o1|s1",
+    "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf|p2|o2|s0",
+    "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf|p2|o2|s1",
+    "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf|p3|o3|s0",
+    "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf|p1|o1|s0",
+    "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf|p1|o1|s1",
+    "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf|p2|o2|s0",
+    "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf|p2|o2|s1",
+    "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf|p3|o3|s0",
+    "resumes\\SRIKAR VUPPALA NODE RESUME.pdf|p1|o1|s0",
+    "resumes\\SRIKAR VUPPALA NODE RESUME.pdf|p1|o1|s1",
+    "resumes\\SRIKAR VUPPALA NODE RESUME.pdf|p2|o2|s0",
+    "resumes\\SRIKAR VUPPALA NODE RESUME.pdf|p3|o3|s0",
+    "resumes\\SRIKAR VUPPALA REACT RESUME.pdf|p1|o1|s0",
+    "resumes\\SRIKAR VUPPALA REACT RESUME.pdf|p1|o1|s1",
+    "resumes\\SRIKAR VUPPALA REACT RESUME.pdf|p2|o2|s0",
+    "resumes\\SRIKAR VUPPALA REACT RESUME.pdf|p2|o2|s1",
+    "resumes\\SRIKAR VUPPALA REACT RESUME.pdf|p3|o3|s0",
+    "resumes\\Srikar_Vuppala_Backend_GraphQL_Resume.pdf|p1|o1|s0"
+  ],
+  "texts": [
+    "Srikar Vuppala srikarvuppala003@gmail.com | (346) 530 8226 | https://linkedin.com/in/srikar003 PROFESSIONAL SUMMARY Results-driven engineer with 6+ years building production-grade platforms and web applications in Python, JavaScript, and C#. Master’s in Computer Science (Data Science) and hands-on leadership of AI/ML, MLOps, and Generative AI initiatives on AWS and Google Cloud Platform. Proven record of translating data-science prototypes into containerized microservices, automating end-to-end ML lifecycles, and scaling cloud infrastructure with Kubernetes and Airflow. Passionate mentor and agile practitioner who thrives in pair-programming environments and ships value early & often. SKILLS Languages: JavaScript, TypeScript, Python, C#, Java, SQL, HTML5, CSS3 Frameworks & Runtimes: React, Angular, Node.js, Express, Flask, .NET Architecture & Patterns: Microservices, Event Sourcing, CQRS, RESTful APIs AI & NLP: OpenAI GPT‑4/4o APIs, Prompt Engineering, AI‑driven Document Extraction & OCR Relational Databases: PostgreSQL, MySQL, Redis (Prisma, Knex, Bookshelf) DevOps & Cloud: AWS (ECR, EC2, S3, CodeArtifact), GCP (Cloud Build, GKE, Vertex AI, BigQuery), Azure Pipelines, Docker, Kubernetes, Airflow Messaging & Monitoring: Kafka, Redis Streams, Kibana, Grafana Security: OAuth 2.0, Checkmarx, StackRox, WhiteSource Collaboration & Tools: Git, Jira, Confluence, Azure Boards, Miro, Figma Testing: Test‑Driven Development (TDD), Vitest, Jest, Jasmine/Karma WORK EXPERIENCE Software Engineer | Aug 2024 - present RADIX SOFTWARE, INC. ● Drove Mach 1 ML-style platform adoption on GCP: built reusable Python micro-framework (FastAPI) that wraps LLM-powered document extractors; deployed to GKE clusters via automated Cloud Build deployments, cutting prototype-to-production cycle 45%. ● Designed Airflow DAGs orchestrating daily PDF-to-XLSX conversions for 200+ rent-roll docs; achieved 99.5% pipeline uptime and freed analysts from manual uploads. ● Introduced GitHub Actions + Cloud Build CI/CD for container images; reduced deploy time from 30 min to <10 min with automated zero-downtime rollouts. ● Designed and launched Marketplace, a Node.js-backed feature that surfaces real-estate deals; early metrics show a 30 % uptick in user engagement within the first quarter. ● Paired with data scientists to fine-tune GPT-4-based extractors; boosted field-level accuracy from 75 → 90% and reduced post-processing effort 60%. ● Led PoC on Vertex AI Feature Store for centralizing training data; validated latency <50 ms for real-time look-ups. ● Mentored 4 engineers in pair programming, test-driven development, and Kubernetes best practices.",
+    "ement within the first quarter. ● Paired with data scientists to fine-tune GPT-4-based extractors; boosted field-level accuracy from 75 → 90% and reduced post-processing effort 60%. ● Led PoC on Vertex AI Feature Store for centralizing training data; validated latency <50 ms for real-time look-ups. ● Mentored 4 engineers in pair programming, test-driven development, and Kubernetes best practices. ● Built AIProperties - an Angular + Flask proof-of-concept that leverages OpenAI to demo a future market-analytics feature - reducing insight turnaround time for analysts by 70% and generating property analytics 5× faster than the previous workflow. Software Engineer | Jan 2018 - Aug 2024 BERKADIA COMMERCIAL MORTGAGE LLC ● Modernized legacy mortgage platform to React + Node.js microservices, shrinking release lead",
+    "time 60% and improving page-load performance 45%. ● Containerized ML risk-scoring models with Docker and scheduled batch scoring in Airflow/Kubernetes, increasing throughput 4×. ● Built RESTful APIs in Node.js & Python with TDD (85%+ coverage), slashing post-release defects 30%. ● Implemented event-sourced DDD backend; quadrupled throughput in load tests and enhanced fault-tolerance. ● Engineered Angular single-page applications that automated Excel-based workflows, cutting loan-processing time from 3 hours to just 15 minutes. ● Developed Infrastructure-as-Code modules across AWS environments using CloudFormation, collaborating with architects to evaluate GCP BigQuery & Cloud Composer, identifying $30k/yr savings opportunity. ● Embedded security scanning (Checkmarx, StackRox) into CI/CD; maintained zero-critical vulnerabilities in 30+ repos. ● Championed pair programming & DevOps culture, onboarding 6 new engineers and boosting team velocity 20%. ACADEMIC EDUCATION University of Houston – Clear Lake Master of Science in Computer Science (Data Science Specialization) 2021 – 2022 | GPA: 3.86 ● Member, UHCL Student Coding Hub Vardhaman College of Engineering Bachelor of Science in Computer Science 2014 – 2018 | GPA: 9.02 ● Best Outgoing Student Award ● Member, Computer Engineers Technical Association ACADEMIC PROJECTS Blockchain Web Client Consortium | Aug 2022 - Dec 2022 Led the design and development of a blockchain-based application, creating frontend components, middleware, and backend APIs for blockchain interactions. Technologies: Angular, Node.js, Golang. Student Networking Application | Sep 2021 - Dec 2021 Built the User Interactive Web platform performing tasks like developing UI components for web page design, developed APIs in spring boot for backend communication and interacting with SQL for data storage. My major focus was related to understanding requirements, designing databases, normalizing them, and providing referential integrity. Technologies: Angular, Spring boot, MySQL. ACHIEVEMENTS Certificate of Excellence – Zero vulnerabilities maintained across multiple applications. Hackathon Winner 2023 – Built a message correlation tool that reduced debugging time for DDD systems. Outstanding Performer – Recognized in 2019 & 2020 at Berkadia; recipient of multiple Hi-Fi awards. Techfest 2016 Winner – National coding competition, IIT Bombay. Active contributor to Work-Life Balance (WoLiBa) and Security Awareness initiatives at Berkadia.",
+    "Srikar Vuppala srikarvuppala003@gmail.com | (346) 530-8226 | LinkedIn PROFESSIONAL SUMMARY Results-driven Software Engineer with an M.S. in Computer Science and 6+ years of experience building scalable full-stack applications and Python-based data processing pipelines using PySpark. Strong background in designing and deploying microservices, event-driven systems, and AI-powered platforms, including large-scale document processing and NLP workflows leveraging OpenAI LLMs. Proven expertise in distributed data processing, ETL pipelines, and cloud-native architectures across AWS and Azure. Experienced in Agile and SAFe Lean environments, with a track record of improving system performance, data accuracy, and delivery efficiency while mentoring cross-functional teams and shipping high-impact, production-ready solutions. SKILLS ● Languages: Python, PySpark, JavaScript, TypeScript, HTML5, CSS3, C#, Java, SQL ● Frameworks & Runtimes: Angular, React, Node.js, Express, Flask, .NET ● Architecture & Patterns: Microservices, Event Sourcing, CQRS, RESTful APIs ● Big Data & Data Processing: Apache Spark (PySpark), Distributed Data Processing, ETL Pipelines, Pandas, NumPy, Data Validation, Data Quality Checks ● AI & NLP: OpenAI GPT-4/4o APIs, Prompt Engineering, NLP, AI-driven Doc. Extraction & OCR ● Databases (Relational & NoSQL): PostgreSQL, MySQL, DynamoDB, Redis, Prisma, Knex, Bookshelf. ● DevOps & Cloud: AWS (ECR, EC2, S3, Lambda, CDK), Azure Pipelines, Docker, Kubernetes. ● Messaging & Monitoring: Kafka, Redis Streams, Kibana, Grafana ● Security: OAuth 2.0, Checkmarx, StackRox, WhiteSource, SonarQube ● Collaboration & Project Tools: Git, Jira, Confluence, Azure Boards, Miro, Figma ● Testing: Test-Driven Development (TDD), Vitest, Jest, Angular unit tests (Jasmine/Karma). WORK EXPERIENCE INFOSYS LIMITED | CLIENT: VERIZON | RICHARDSON, TX AUG 2025 - PRESENT SOFTWARE ENGINEER ● Leveraged Python and PySpark to analyze and process large-scale customer interaction and support datasets, enabling faster insights into customer retention patterns. ● Built Python-based data validation and preprocessing scripts to support downstream Node.js services and reporting workflows. ● Assisted in batch data processing using PySpark, improving data preparation performance for analytics and internal dashboards. ● Collaborated with backend and analytics teams to align React UI workflows with Python-driven services like Flask, ensuring consistency between UI metrics and backend computations. DBESTWORKZ LLC | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER ● Developed Python and PySpark-based data preprocessing pipelines to clean, validate, and enrich unstructured and semi-structured real estate documents prior to LLM ingestion.",
+    "and analytics teams to align React UI workflows with Python-driven services like Flask, ensuring consistency between UI metrics and backend computations. DBESTWORKZ LLC | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER ● Developed Python and PySpark-based data preprocessing pipelines to clean, validate, and enrich unstructured and semi-structured real estate documents prior to LLM ingestion. ● Improved document parsing accuracy from 75% to 90% by combining Flask-based AI services, PySpark transformations, and prompt-driven NLP validation using OpenAI LLMs. ● Used PySpark for batch processing of large document datasets, significantly reducing preprocessing time and enabling scalable AI-driven document extraction.",
+    "● Built Python utilities for feature extraction, anomaly detection, and data normalization, feeding both AI models and Node.js microservices. ● Designed AI Properties POC using Angular + Flask, accelerating market analytics generation by 5× and reducing analyst turnaround time by 70%. RADIX SOFTWARE INC. | SCOTTSDALE, ARIZONA AUG 2024 - JAN 2025 SOFTWARE ENGINEER ● Built Python and PySpark-based data transformation jobs to process high-volume PDF extraction outputs, improving downstream XLSX accuracy by ~25%. ● Leveraged PySpark for large-scale batch processing of extracted rent-roll datasets (250+ documents/day), improving throughput and fault tolerance. ● Implemented data quality checks and schema validation using Python before persisting processed outputs to AWS S3 and relational databases. ● Integrated Python-based data pipelines with Node.js microservices to support scalable document-processing workflows. ● Optimized AWS-backed data processing workflows using Spark-style parallelism, improving processing efficiency and reducing compute overhead. ● Engineered and automated full AWS cloud, provisioned S3 for durable object storage, managed container images in ECR and deployed them on EC2-backed services, centralized package management with Code Artifact, and built event-driven micro-services coordinated through SQS - cutting deployment lead time and infrastructure costs while delivering highly scalable, fault-tolerant workloads. ● Implemented Azure DevOps pipelines and Docker files, shrinking build-to-deploy time from 30 min to less than 10 min. ● Authored 15+ Functional Specification Documents, aligning product, engineering, and QA teams. BERKADIA COMMERCIAL MORTGAGE LLC | HOUSTON, TEXAS JAN 2023 - JUL 2024 SOFTWARE ENGINEER ● Modernized a monolithic legacy stack to React + Node.js (PostgreSQL & MySQL), shrinking deployment lead time by 60% and improving page-load performance by 45%. ● Led RESTful API development in Node.js with Test-Driven Development (TDD), achieving more than 85% unit-test coverage and cutting post-release defects by 30%. ● Re-architected the back end to Domain-Driven Design (DDD), using PostgreSQL boosting fault tolerance and quadrupling throughput in load tests. ● Integrated enterprise-grade security tools (WhiteSource, StackRox, Checkmarx, SonarQube) into CI/CD pipelines following DevSecOps principles, eliminating critical vulnerabilities across 30+ repositories and achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER ● Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications.",
+    "ce, StackRox, Checkmarx, SonarQube) into CI/CD pipelines following DevSecOps principles, eliminating critical vulnerabilities across 30+ repositories and achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER ● Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications. ● Engineered Angular single-page applications that automated Excel-based workflows, cutting loan-processing time from 3 hours to just 15 minutes. ● Modularized the Angular app into a reusable NPM package, reducing duplicate code by 35%. ● Implemented unit tests using Jasmine/Karma following Test Driven Development (TDD) principles. ● Managed database schemas and migrations with Prisma, Bookshelf and Knex.js for efficient data",
+    "modeling in MySQL. ● Diagnosed and resolved production incidents with Kibana, Grafana, and live Kubernetes-pod debugging with high efficiency. ACADEMIC EDUCATION University of Houston – Clear Lake Master of Science in Computer Science (Data Science Specialization) 2021 - 2022 | GPA: 3.86 ● Member, UHCL Student Coding Hub Vardhaman College of Engineering Bachelor of Science in Computer Science 2014 – 2018 | GPA: 9.02 ● Best Outgoing Student Award ● Member, Computer Engineers Technical Association ACADEMIC PROJECTS Blockchain Web Client Consortium Aug 2022 - Dec 2022 Led the design and development of a blockchain-based application, creating frontend components, middleware, and backend APIs for blockchain interactions. Technologies: Angular, Node.js, Golang. Student Networking Application Sep 2021 - Dec 2021 Built the User Interactive Web platform performing tasks like developing UI components for web page design, developed APIs in spring boot for backend communication and interacting with SQL for data storage. My major focus was related to understanding requirements, designing databases, normalizing them, and providing referential integrity. Technologies: Angular, Spring boot, MySQL. ACHIEVEMENTS ● Certificate of Excellence – Zero vulnerabilities maintained across multiple applications. ● Hackathon Winner 2023 – Built a message correlation tool that reduced debugging time for DDD systems. ● Outstanding Performer – Recognized in 2019 & 2020 at Berkadia; recipient of multiple Hi-Fi awards. ● Techfest 2016 Winner – National coding competition, IIT Bombay.",
+    "Srikar Vuppala srikarvuppala003@gmail.com | (346) 530-8226 | LinkedIn PROFESSIONAL SUMMARY Results-driven Software Engineer with an M.S. in Computer Science and 6+ years of experience delivering scalable web applications with Angular, React, Node.js, Flask, and .NET. I specialize in microservices, Event Sourcing, and CQRS architectures, and have built AI-driven document-processing pipelines leveraging OpenAI LLMs. Throughout my career, I have worked in Agile environments, incorporating SAFe Lean practices to enhance team collaboration and delivery efficiency. My work spans end-to-end cloud and DevOps on AWS and Azure, secure authentication with OAuth 2.0, and mentoring cross-functional teams to drive system improvements and ship high-impact features across diverse platforms. SKILLS ● Languages: JavaScript, TypeScript, HTML5, CSS3, Python, C#, Java, SQL ● Frameworks & Runtimes: Angular, React, Node.js, Express, Flask, .NET ● Architecture & Patterns: Microservices, Event Sourcing, CQRS, RESTful APIs ● AI & NLP: OpenAI GPT-4/4o APIs, Prompt Engineering, NLP, AI-driven Doc. Extraction & OCR ● Databases (Relational & NoSQL): PostgreSQL, MySQL, DynamoDB, Redis, Prisma, Knex, Bookshelf. ● DevOps & Cloud: AWS (ECR, EC2, S3, Lambda, CDK), Azure Pipelines, Docker, Kubernetes. ● Messaging & Monitoring: Kafka, Redis Streams, Kibana, Grafana ● Security: OAuth 2.0, Checkmarx, StackRox, WhiteSource, SonarQube ● Collaboration & Project Tools: Git, Jira, Confluence, Azure Boards, Miro, Figma ● Testing: Test-Driven Development (TDD), Vitest, Jest, Angular unit tests (Jasmine/Karma). WORK EXPERIENCE INFOSYS LIMITED | CLIENT: VERIZON | RICHARDSON, TX AUG 2025 - JAN 2026 SOFTWARE ENGINEER ● Contributing to Verizon’s Support Team Portal, a customer retention platform that provides targeted offers and line evaluations to users. ● Developed Angular-based web pages to support high-traffic customer workflows using component-based architecture, RxJS, and Angular CLI. ● Optimized apps through lazy loading, route-level splitting, and AOT compilation, improving the load time. ● Integrated RESTful APIs and GraphQL endpoints using Angular HttpClient with interceptors for authentication, error handling, and caching. ● Ensured code quality using ESLint/TSlint, Prettier, Husky hooks, and CI pipelines. ● Collaborating with cross-functional teams to enhance user experience, optimize performance, and maintain secure, scalable service delivery following Agile Principles. DBESTWORKZ LLC | CLIENT: RADIX | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER ● Designed and launched \"Marketplace,\" an Angular + Nodejs-powered real-estate deal surfacing feature. Early metrics indicate a 30% increase in user engagement in the first quarter, driven by real-time user notifications via AWS SNS.",
+    "ance, and maintain secure, scalable service delivery following Agile Principles. DBESTWORKZ LLC | CLIENT: RADIX | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER ● Designed and launched \"Marketplace,\" an Angular + Nodejs-powered real-estate deal surfacing feature. Early metrics indicate a 30% increase in user engagement in the first quarter, driven by real-time user notifications via AWS SNS. ● Implemented role-based authentication & SPA routing with guards, resolvers, and custom interceptors. ● Built AI Properties - an Angular + Flask proof-of-concept that leverages OpenAI LLM APIs to demo a",
+    "future market analytics feature - reducing insight turnaround time for analysts by 70% and generating property analytics 5× faster than the previous workflow. ● Raised document parsing accuracy from 75% to 90% by developing Flask-based AI services that integrate OpenAI LLMs (NLP Validation through prompts) into RedIQ’s software processing pipeline. RADIX SOFTWARE INC. | SCOTTSDALE, ARIZONA AUG 2024 - JAN 2025 SOFTWARE ENGINEER ● Spearheaded precision improvements in structured PDF-to-XLSX extraction by ~25% across 250+ documents daily for Rent-roll Enhancements by developing a microservice using Angular and Node.js. Conducted extensive evaluation of multiple conversion tools to optimize extraction accuracy. ● Managed and optimized a suite of 30+ Node.js microservices to ensure high availability, scalability, and seamless user experience across distributed systems. ● Created and optimized stored procedures in .NET to perform high-volume CRUD operations, improving database performance and maintainability. ● Engineered and automated a full AWS cloud, provisioned S3 for durable object storage, managed container images in ECR and deployed them on EC2-backed services, centralized package management with Code Artifact, and built event-driven micro-services coordinated through SQS - cutting deployment lead time and infrastructure costs while delivering highly scalable, fault-tolerant workloads. ● Implemented Azure DevOps pipelines and Docker files, shrinking build-to-deploy time from 30 minutes to less than 10 minutes. ● Authored 15+ Functional Specification Documents, aligning product, engineering, and QA teams. BERKADIA COMMERCIAL MORTGAGE LLC | HOUSTON, TEXAS JAN 2023 - JUL 2024 SOFTWARE ENGINEER ● Modernized a monolithic legacy stack to React + Node.js (PostgreSQL & MySQL), shrinking deployment lead time by 60% and improving page-load performance by 45%. ● Led RESTful API development in Node.js with Test-Driven Development (TDD), achieving more than 85% unit-test coverage and cutting post-release defects by 30%. ● Re-architected the back end to Domain-Driven Design (DDD), using PostgreSQL, boosting fault tolerance and quadrupling throughput in load tests. ● Integrated enterprise-grade security tools (WhiteSource, StackRox, Checkmarx, SonarQube) into CI/CD pipelines following DevSecOps principles, eliminating critical vulnerabilities across 30+ repositories and achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER ● Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications. ● Engineered Angular single-page applications that automated Excel-based workflows, cutting loan-processing time from 3 hours to just 15 minutes.",
+    "ies and achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER ● Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications. ● Engineered Angular single-page applications that automated Excel-based workflows, cutting loan-processing time from 3 hours to just 15 minutes. ● Modularized the Angular app into a reusable NPM package, reducing duplicate code by 35%. ● Implemented unit tests using Jasmine/Karma following Test Driven Development (TDD) principles. ● Managed database schemas and migrations with Prisma, Bookshelf, and Knex.js for efficient data modeling in MySQL. ● Diagnosed and resolved production incidents with Kibana, Grafana, and live Kubernetes-pod debugging with high efficiency.",
+    "ACADEMIC EDUCATION University of Houston – Clear Lake Master of Science in Computer Science (Data Science Specialization) 2021 - 2022 | GPA: 3.86 ● Member, UHCL Student Coding Hub Vardhaman College of Engineering Bachelor of Science in Computer Science 2014 – 2018 | GPA: 9.02 ● Best Outgoing Student Award ● Member, Computer Engineers Technical Association ACADEMIC PROJECTS Blockchain Web Client Consortium Aug 2022 - Dec 2022 Led the design and development of a blockchain-based application, creating frontend components, middleware, and backend APIs for blockchain interactions. Technologies: Angular, Node.js, Golang. Student Networking Application Sep 2021 - Dec 2021 Built the User Interactive Web platform, performing tasks like developing UI components for web page design, developing APIs in Spring Boot for backend communication, and interacting with SQL for data storage. My primary focus was on understanding requirements, designing databases, normalizing them, and ensuring referential integrity. Technologies: Angular, Spring Boot, MySQL. ACHIEVEMENTS ● Certificate of Excellence – Zero vulnerabilities maintained across multiple applications. ● Hackathon Winner 2023 – Built a message correlation tool that reduced debugging time for DDD systems. ● Outstanding Performer – Recognized in 2019 & 2020 at Berkadia; recipient of multiple Hi-Fi awards. ● Techfest 2016 Winner – National coding competition, IIT Bombay.",
+    "Srikar Vuppala srikarvuppala003@gmail.com | (346) 530-8226 | LinkedIn PROFESSIONAL SUMMARY Backend-focused Software Engineer with an M.S. in Computer Science and 6+ years of experience designing, building, and scaling high-performance distributed systems across real estate, finance, and enterprise platforms. Specialized in Node.js backend development, microservices, Domain-Driven Design (DDD), CQRS, and Event Sourcing, with proven success delivering cloud-native services on AWS and Azure. Strong expertise in API design, asynchronous processing, caching, messaging systems, and AI-powered document-processing pipelines using OpenAI LLMs. Adept at owning services end-to-end—from architecture and implementation to CI/CD, observability, and production support—while mentoring engineers and collaborating in Agile/SAFe environments. SKILLS ● Languages: JavaScript, TypeScript, Python, C#, SQL, HTML5, CSS3 ● Backend & Frameworks: Node.js, Express.js, React, Angular, NestJS (familiar), Flask, .NET, GraphQL ● Architecture & Patterns: Microservices, Domain-Driven Design (DDD), CQRS, Event Sourcing, RESTful & GraphQL APIs, Asynchronous & Event-driven systems ● Databases & Caching: PostgreSQL, MySQL, DynamoDB, Redis, Prisma, Knex, Bookshelf ● Messaging & Streaming: Apache Kafka, Redis Streams, AWS SQS, SNS ● Cloud & DevOps: AWS (EC2, ECR, EKS, S3, Lambda, CodeArtifact, CDK), Azure DevOps, Docker, Kubernetes ● Observability & Monitoring: Kibana, Grafana, Structured Logging (Pino), Metrics & Alerts ● Security: OAuth 2.0, JWT, Checkmarx, StackRox, WhiteSource, SonarQube ● Testing: TDD, Jest, Vitest, Unit & Integration Testing WORK EXPERIENCE INFOSYS LIMITED | CLIENT: VERIZON | RICHARDSON, TX AUG 2025 - JAN 2026 SOFTWARE ENGINEER ● Developed and maintained Node.js backend services supporting Verizon’s Support Team Portal, a high-traffic customer retention platform. ● Designed REST and GraphQL APIs with authentication, schema validation, resolvers, and centralized error handling, ensuring secure and reliable service communication. ● Implemented Jest-based unit testing for backend services, reducing post-release defects and improving service stability. ● Collaborated with frontend, QA, and product teams to deliver scalable features following Agile/SAFe practices. DBESTWORKZ LLC | CLIENT: RADIX | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER ● Designed and launched Node.js microservices and GraphQL endpoints powering a real-estate marketplace feature, driving a 30% increase in user engagement. ● Built backend notification workflows using AWS SNS and SQS for real-time updates. ● Implemented role-based access control, secure API routing, and token-based authentication. ● Designed and launched \"Marketplace,\" a React + Nodejs-powered real-estate deal surfacing feature.",
+    "microservices and GraphQL endpoints powering a real-estate marketplace feature, driving a 30% increase in user engagement. ● Built backend notification workflows using AWS SNS and SQS for real-time updates. ● Implemented role-based access control, secure API routing, and token-based authentication. ● Designed and launched \"Marketplace,\" a React + Nodejs-powered real-estate deal surfacing feature. Early metrics indicate a 30% increase in user engagement in the first quarter, driven by real-time user notifications via AWS SNS.",
+    "RADIX SOFTWARE INC. | SCOTTSDALE, ARIZONA AUG 2024 - JAN 2025 SOFTWARE ENGINEER ● Owned and optimized 30+ Node.js microservices, ensuring high scalability and fault tolerance. ● Architected a high-throughput Angular + Node.js PDF-to-XLSX conversion service, processing 30K+ documents/month with a 25% accuracy improvement. ● Leveraged Node.js core modules (cluster, worker_threads) to enable parallel processing and efficient I/O. ● Designed event-driven workflows using AWS SQS, reducing processing latency and infrastructure costs. ● Built and maintained Dockerized services and automated Azure DevOps CI/CD pipelines, cutting deployment time from 30 minutes to under 10 minutes. BERKADIA COMMERCIAL MORTGAGE LLC | HOUSTON, TEXAS JAN 2023 - JUL 2024 SOFTWARE ENGINEER ● Led modernization from monolithic architecture to React + Node.js microservices with REST and GraphQL APIs backed by PostgreSQL and MySQL. ● Designed APIs following DDD principles, quadrupling throughput under load tests. ● Implemented Redis-based caching layers, reducing repeated database reads by 60%. ● Integrated Apache Kafka for batch and asynchronous document processing pipelines. ● Achieved 85%+ unit test coverage using TDD practices, cutting production defects by 30%. ● Embedded enterprise security tools into CI/CD pipelines, achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER ● Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications. ● Engineered Angular single-page applications that automated Excel-based workflows using Node.js, cutting loan-processing time from 3 hours to just 15 minutes. ● Modularized the Angular app into a reusable NPM package, reducing duplicate code by 35%. ● Implemented unit tests using Jasmine/Karma following Test Driven Development (TDD) principles. ● Managed database schemas, migrations with Prisma, Bookshelf, and Knex.js for data modeling. ● Diagnosed and resolved production incidents with Kibana, Grafana, and live Kubernetes-pod debugging with high efficiency. ACADEMIC EDUCATION University of Houston – Clear Lake Master of Science in Computer Science (Data Science Specialization) 2021 - 2022 | GPA: 3.86 ● Member, UHCL Student Coding Hub Vardhaman College of Engineering Bachelor of Science in Computer Science 2014 – 2018 | GPA: 9.02 ● Best Outgoing Student Award ● Member, Computer Engineers Technical Association ACADEMIC PROJECTS Blockchain Web Client Consortium Aug 2022 - Dec 2022 Led the design and development of a blockchain-based application, creating frontend components, middleware, and backend APIs for blockchain interactions. Technologies: Angular, Node.js, Golang.",
+    "Student Networking Application Sep 2021 - Dec 2021 Built the User Interactive Web platform, performing tasks like developing UI components for web page design, developing APIs in Spring Boot for backend communication, and interacting with SQL for data storage. My primary focus was on understanding requirements, designing databases, normalizing them, and ensuring referential integrity. Technologies: Angular, Spring Boot, MySQL. ACHIEVEMENTS ● Certificate of Excellence – Zero vulnerabilities maintained across multiple applications. ● Hackathon Winner 2023 – Built a message correlation tool that reduced debugging time for DDD systems. ● Outstanding Performer – Recognized in 2019 & 2020 at Berkadia; recipient of multiple Hi-Fi awards. ● Techfest 2016 Winner – National coding competition, IIT Bombay.",
+    "SRIKAR VUPPALA srikarvuppala003@gmail.com | (346) 530-8226 | LinkedIn PROFESSIONAL SUMMARY Results-driven Software Engineer with an M.S. in Computer Science and 6+ years of experience delivering scalable web applications with React, Angular, Node.js, Flask, and .NET. I specialize in microservices, Event Sourcing, and CQRS architectures, and have built AI-driven document-processing pipelines leveraging OpenAI LLMs. Throughout my career, I have worked in Agile environments, incorporating SAFe Lean practices to enhance team collaboration and delivery efficiency. My work spans end-to-end cloud and DevOps on AWS and Azure, secure authentication with OAuth 2.0, and mentoring cross-functional teams to drive system improvements and ship high-impact features across diverse platforms. SKILLS • Languages: JavaScript, TypeScript, HTML5, CSS3, Python, C#, Java, SQL • Frameworks & Runtimes: React, Angular, Node.js, Express, Flask, .NET • Architecture & Patterns: Microservices, Event Sourcing, CQRS, RESTful APIs • AI & NLP: OpenAI GPT-4/4o APIs, Prompt Engineering, NLP, AI-driven Document Extraction & OCR • Databases (Relational & NoSQL): PostgreSQL, MySQL, DynamoDB, Redis, Prisma, Knex, Bookshelf. • DevOps & Cloud: AWS (ECR, EC2, S3, Lambda, CDK), Azure Pipelines, Docker, Kubernetes. • Messaging & Monitoring: Kafka, Redis Streams, Kibana, Grafana • Security: OAuth 2.0, Checkmarx, StackRox, WhiteSource, SonarQube • Collaboration & Project Tools: Git, Jira, Confluence, Azure Boards, Miro, Figma • Testing: Test-Driven Development (TDD), Vitest, Jest, Angular unit tests (Jasmine/Karma). WORK EXPERIENCE INFOSYS LIMITED | CLIENT: VERIZON | RICHARDSON, TX AUG 2025 - PRESENT SOFTWARE ENGINEER • Contributing to Verizon’s Support Team Portal, a customer retention platform that provides targeted offers and line evaluations to users. • Developing React-based web pages and Node.js backend services (with additional Java integration) to support high-traffic customer workflows. • Focused on React development and Jest-based Unit testing, ensuring reliability and reducing post-release defects. • Collaborating with cross-functional teams to enhance user experience, optimize performance, and maintain secure, scalable service delivery. DBESTWORKZ LLC | AUSTIN, TEXAS JAN 2025 - JUL 2025 SOFTWARE ENGINEER • Raised document parsing accuracy from 75% to 90% by developing Flask-based AI services that integrate OpenAI LLMs (NLP Validation through prompts) into RedIQ’s software processing pipeline. • Designed and launched \"Marketplace,\" an React (TSX - typescript with XML) + Node.js - powered real- estate deal surfacing feature. Early metrics indicate a 30% increase in user engagement within the first quarter, with real-time user notifications driven by AWS SNS.",
+    "ing Flask-based AI services that integrate OpenAI LLMs (NLP Validation through prompts) into RedIQ’s software processing pipeline. • Designed and launched \"Marketplace,\" an React (TSX - typescript with XML) + Node.js - powered real- estate deal surfacing feature. Early metrics indicate a 30% increase in user engagement within the first quarter, with real-time user notifications driven by AWS SNS. • Managed and optimized a suite of 30+ Node.js microservices to ensure high availability, scalability, and seamless user experience across distributed systems. • Built AI Properties - an Angular + Flask proof-of-concept that leverages OpenAI LLM APIs to demo a future market-analytics feature - reducing insight turnaround time for analysts by 70% and generating property analytics 5× faster than the previous workflow.",
+    "RADIX SOFTWARE INC. | SCOTTSDALE, ARIZONA AUG 2024 - JAN 2025 SOFTWARE ENGINEER • Spearheaded precision improvements in structured PDF-to-XLSX extraction by ~25% across 250+ documents daily for Rent-roll Enhancements by developing a microservice using Node.js. Conducted extensive evaluation of multiple conversion tools to optimize extraction accuracy. • Created and optimized stored procedures in .NET to perform high-volume CRUD operations, improving database performance and maintainability. • Engineered and automated full AWS cloud, provisioned S3 for durable object storage, managed container images in ECR and deployed them on EC2-backed services, centralized package management with Code Artifact, and built event-driven micro-services coordinated through SQS - cutting deployment lead time and infrastructure costs while delivering highly scalable, fault-tolerant workloads. • Implemented Azure DevOps pipelines and Docker files, shrinking build-to-deploy time from 30 min to less than 10 min. • Authored 15+ Functional Specification Documents, aligning product, engineering, and QA teams. BERKADIA COMMERCIAL MORTGAGE LLC | HOUSTON, TEXAS JAN 2023 - JUL 2024 SOFTWARE ENGINEER • Modernized a monolithic legacy stack to React + Node.js (PostgreSQL & MySQL), shrinking deployment lead time by 60% and improving page-load performance by 45%. • Led RESTful API development in Node.js with Test-Driven Development (TDD), achieving more than 85% unit-test coverage and cutting post-release defects by 30%. • Re-architected the back end to Domain-Driven Design (DDD), using PostgreSQL boosting fault tolerance and quadrupling throughput in load tests. • Integrated enterprise-grade security tools (WhiteSource, StackRox, Checkmarx, SonarQube) into CI/CD pipelines following DevSecOps principles, eliminating critical vulnerabilities across 30+ repositories and achieving 100% audit compliance. BERKADIA SERVICES INDIA PVT LTD | HYDERABAD, INDIA JAN 2018 - JUL 2021 SOFTWARE ENGINEER • Actively contributed to requirement analysis, architecture planning, and POC development for core servicing applications. • Engineered Angular single-page applications that automated Excel-based workflows, cutting loan- processing time from 3 hours to just 15 minutes. • Modularized the Angular app into a reusable NPM package, reducing duplicate code by 35%. • Managed database schemas and migrations with Prisma, Bookshelf and Knex.js for efficient data modeling in MySQL. • Diagnosed and resolved production incidents with Kibana, Grafana, and live Kubernetes-pod debugging with high efficiency.",
+    "flows, cutting loan- processing time from 3 hours to just 15 minutes. • Modularized the Angular app into a reusable NPM package, reducing duplicate code by 35%. • Managed database schemas and migrations with Prisma, Bookshelf and Knex.js for efficient data modeling in MySQL. • Diagnosed and resolved production incidents with Kibana, Grafana, and live Kubernetes-pod debugging with high efficiency. ACADEMIC EDUCATION University of Houston – Clear Lake Master of Science in Computer Science (Data Science Specialization) 2021 – 2022 | GPA: 3.86 • Member, UHCL Student Coding Hub Vardhaman College of Engineering Bachelor of Science in Computer Science 2014 – 2018 | GPA: 9.02 • Best Outgoing Student Award • Member, Computer Engineers Technical Association",
+    "ACADEMIC PROJECTS Blockchain Web Client Consortium | Aug 2022 - Dec 2022 Led the design and development of a blockchain-based application, creating frontend components, middleware, and backend APIs for blockchain interactions. Technologies: Angular, Node.js, Golang. Student Networking Application | Sep 2021 - Dec 2021 Built the User Interactive Web platform performing tasks like developing UI components for web page design, developing APIs in spring boot for backend communication and interacting with SQL for data storage. My major focus was related to understanding requirements, designing databases, normalizing them, and providing referential integrity. Technologies: Angular, Spring boot, MySQL. ACHIEVEMENTS • Certificate of Excellence – Zero vulnerabilities maintained across multiple applications. Hackathon Winner 2023 – Built a message correlation tool that reduced debugging time for DDD systems. • Outstanding Performer – Recognized in 2019 & 2020 at Berkadia; recipient of multiple Hi-Fi awards. • Techfest 2016 Winner – National coding competition, IIT Bombay.",
+    "SRIKAR VUPPALA srikarvuppala003@gmail.com | (346) 530-8226 | LinkedIn PROFESSIONAL SUMMARY Backend-focused Software Engineer with an M.S. in Computer Science and 6+ years of experience designing, building, and scaling high-performance distributed systems. Specialized in Node.js, TypeScript, GraphQL, microservices, DDD, CQRS, and cloud-native architectures on AWS and Azure. TECHNICAL SKILLS Languages: JavaScript, TypeScript, Python, C#, SQL Backend: Node.js, Express.js, GraphQL (Apollo Server) Architecture: Microservices, DDD, CQRS, Event Sourcing Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD EXPERIENCE HIGHLIGHTS (cid:127) Designed and deployed Node.js backend services and GraphQL APIs for customer-facing platforms. (cid:127) Built CI/CD pipelines with observability using Kibana and Grafana. (cid:127) Improved performance and reliability with caching, async processing, and secure API design. EDUCATION M.S. Computer Science – University of Houston Clear Lake"
+  ],
+  "metadatas": [
+    {
+      "source_file": "resumes\\AI Resume - Srikar Vuppala.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\AI Resume - Srikar Vuppala.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\AI Resume - Srikar Vuppala.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\Pyspark SRIKAR VUPPALA RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 3,
+      "section": "line",
+      "order": 3,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA ANGULAR RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 3,
+      "section": "line",
+      "order": 3,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA NODE RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA NODE RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA NODE RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA NODE RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 3,
+      "section": "line",
+      "order": 3,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA REACT RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA REACT RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA REACT RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA REACT RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 2,
+      "section": "line",
+      "order": 2,
+      "split_index": 1
+    },
+    {
+      "source_file": "resumes\\SRIKAR VUPPALA REACT RESUME.pdf",
+      "source_ext": ".pdf",
+      "page": 3,
+      "section": "line",
+      "order": 3,
+      "split_index": 0
+    },
+    {
+      "source_file": "resumes\\Srikar_Vuppala_Backend_GraphQL_Resume.pdf",
+      "source_ext": ".pdf",
+      "page": 1,
+      "section": "line",
+      "order": 1,
+      "split_index": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Where you'll make an impact:
+
+Build and ship features end-to-end, working across React, Node.js and Golang. 
+Develop user-facing workflows including data collection forms, reporting interfaces, and account management experiences that handle complex financial data. 
+Implement backend APIs and services that power our data syncing and orchestration capabilities, ensuring reliable data flow across systems. 
+Write well-tested, maintainable code and participate in code reviews, contributing to the team's technical quality and standards. 
+Collaborate with Product, Design, and other engineers to break down requirements, identify technical approaches, and deliver solutions efficiently. 
+Debug and resolve production issues across the stack, ensuring system reliability for our customers. 
+
+Requirements:
+
+4-6 years of fullstack engineering experience with exposure to both frontend and backend development. 
+Solid fundamentals in web development, including JavaScript/TypeScript, modern frontend frameworks (React preferred), API design, and working with databases. 
+Comfortable working across the full stack - you may have a preference but can contribute effectively on both frontend and backend work. 
+Collaborative mindset and strong communication skills - you work effectively with teammates and ask good questions when you need clarity. 
+Eager to learn and grow your technical skills - you're curious about new technologies and open to feedback. 
+Self-directed and capable of owning features with minimal oversight, while knowing when to ask for input or guidance. 
+Bias toward shipping and iteration - you balance getting things done with building things well. 
+
+You'll stand out if you have:
+
+Experience building B2B SaaS products or working in fintech/financial services. 
+Exposure to building integrations, working with third-party APIs, or data transformation pipelines. 
+Background at startups where you had to wear multiple hats and ship features independently. 
+Experience with testing frameworks and writing automated tests for both frontend and backend code. 
+Interest in using AI tools to improve your development workflow and productivity. 
+
+Our tech stack: React, TypeScript, Node.js, Fastify, Golang, PostgreSQL

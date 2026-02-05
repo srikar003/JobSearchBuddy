@@ -1,0 +1,5 @@
+app/core/__pycache__/
+app/__pycache__/
+resumes/
+output/
+.vscode
