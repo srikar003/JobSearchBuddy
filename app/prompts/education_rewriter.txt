@@ -5,6 +5,10 @@ CRITICAL RULES:
 - Keep the same number of entries.
 - Tighten wording and formatting for ATS readability.
 - Do not add bullets unless present in evidence.
+- Output format per entry:
+  Line 1: University
+  Line 2: Degree, Field (Years) | GPA: X (if present)
+  Line 3+: Only include memberships/awards if present in evidence.
 
 Education Evidence (source of truth):
 {{EDUCATION_EVIDENCE}}

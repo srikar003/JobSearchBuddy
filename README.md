@@ -2,17 +2,14 @@
 
 JobSearchBuddy is a **local, privacy-first** prototype that helps job seekers tailor their resume to a job description using **Ollama** (local LLM). It reads multiple resumes from a folder, builds evidence from all of them, rewrites only specific sections using focused prompts, and injects the rewritten sections into a chosen “template resume” to preserve formatting/structure.
 
-✅ Runs locally (Ollama).
+🛡️  **Privacy-first** · ⚙️ **Local LLM** · 📄 **Template-anchored output**
 
-✅ Uses multiple resumes as evidence.
-
-✅ Rewrites only **WORK EXPERIENCE** + **ACADEMIC EDUCATION**.
-
-✅ Preserves all other sections from the chosen template resume.
-
-✅ Exports output to `.docx`.
-
-✅ CLI-first.
+- ✅ Runs locally (Ollama)
+- 📚 Uses multiple resumes as evidence
+- ✍️ Rewrites only **WORK EXPERIENCE** + **ACADEMIC EDUCATION**
+- 🧾 Preserves other sections from the template resume
+- 📤 Exports output to `.docx`
+- 🖥️ CLI-first
 
 ---
 
@@ -26,23 +23,23 @@ JobSearchBuddy is a **local, privacy-first** prototype that helps job seekers ta
 
 ### Processing Steps
 
-1. **Extract text** from all resumes in the folder (`.pdf` and `.docx`)
-2. Choose a **template resume** (currently: the **longest extracted resume**)
-3. Parse **all resumes** to collect:
+1. 📝 **Extract text** from all resumes in the folder (`.pdf` and `.docx`)
+2. 🧾 **Choose a template resume** (currently: the **longest extracted resume**)
+3. 🔎 **Parse all resumes** to collect:
 
-   * All roles from **WORK EXPERIENCE**
-   * All entries from **ACADEMIC EDUCATION**
-4. Merge and deduplicate roles/education across resumes
-5. Generate updated sections using two prompts:
+  - All roles from **WORK EXPERIENCE**
+  - All entries from **ACADEMIC EDUCATION**
+4. 🔁 **Merge and deduplicate** roles/education across resumes
+5. ✍️ **Generate updated sections** using two prompts:
 
-   * `work_experience_rewriter.txt` → rewrites **WORK EXPERIENCE** (JD-aware)
-   * `education_rewriter.txt` → rewrites **ACADEMIC EDUCATION** (JD-agnostic)
-6. Inject the rewritten sections into the template resume:
+  - `work_experience_rewriter.txt` → rewrites **WORK EXPERIENCE** (JD-aware)
+  - `education_rewriter.txt` → rewrites **ACADEMIC EDUCATION** (JD-agnostic)
+6. 🧩 **Inject rewritten sections** into the template resume:
 
-   * Replaces the template’s WORK EXPERIENCE section with rewritten work section
-   * Replaces the template’s ACADEMIC EDUCATION section with rewritten education section
-   * Keeps everything else **verbatim**
-7. Export as `.docx`
+  - Replace the template’s WORK EXPERIENCE with the rewritten work section
+  - Replace the template’s ACADEMIC EDUCATION with the rewritten education section
+  - Keep everything else **verbatim**
+7. 📤 **Export** as `.docx`
 
 ---
 
@@ -88,23 +85,9 @@ pip install -r requirements.txt
 
 ---
 
-## Install & Run Ollama
+## 🛠️ Install & Run Ollama
 
-### 1) Confirm Ollama is running
-
-```powershell
-python -c "import requests; print(requests.get('http://localhost:11434/api/tags').status_code)"
-```
-
-Expected output: `200`
-
-> If you get `ModuleNotFoundError: requests`, run:
-
-```powershell
-pip install requests
-```
-
-### 2) Pull required model(s)
+### 1) Pull required model(s)
 
 LLM used by `main.py`:
 
@@ -112,11 +95,103 @@ LLM used by `main.py`:
 ollama pull llama3.1:8b
 ```
 
-(You can switch models by updating `ResumeWriterConfig(model=...)`.)
+(You can switch models by updating `ResumeWriterConfig(model=...)`).
+(You can switch models by updating `ResumeWriterConfig(model=...)`).
+
+### 🔧 Managing models & running Ollama in background
+
+- **Pull or update a model:** re-running `ollama pull <model>` will download or update the specified model.
+
+```powershell
+ollama pull llama3.1:8b
+ollama pull gpt-oss:20b-cloud
+```
+
+- **List local models:**
+
+```powershell
+ollama list
+```
+
+- **Run the Ollama server in the background (Windows PowerShell):**
+
+```powershell
+# Start Ollama as a background process (ensure `ollama` is in PATH)
+Start-Process -FilePath 'ollama' -ArgumentList 'serve' -WindowStyle Hidden
+
+# Confirm the server is responding
+Invoke-RestMethod -Uri 'http://localhost:11434/api/tags'
+```
+
+> ⚠️ Tip: to see server logs, run `ollama serve` in a visible shell instead of starting it hidden.
+
+- **Switch the model used by the tool (code):** edit the `model` argument in `main.py` where `ResumeWriterConfig` is instantiated.
+
+Example (in `main.py`):
+
+```py
+MODEL_NAME='gpt-oss:20b-cloud' #update it to 'llama3.1:8b'
+writer = ResumeWriter(config=ResumeWriterConfig(model=MODEL_NAME, timeout_s=900))
+```
+
+Replace the string with any model you have pulled (for example `gpt-oss:20b-cloud`).
+
+- **Switch the model used by the tool (without editing code):** set an environment variable and read it from `main.py`.
+
+PowerShell:
+```powershell
+python main.py --resumes ./resumes --job-description jd.txt --output ./output/tailored_resume.docx
+```
+
+bash (WSL / macOS / Linux):
+```bash
+python main.py --resumes ./resumes --job-description jd.txt --output ./output/tailored_resume.docx
+```
+
+Minimal example (add to `main.py` before constructing `ResumeWriterConfig`):
+
+
+Notes:
+- Ensure `ollama` is on your PATH so the `Start-Process` call succeeds.
+- `Start-Process` will launch `ollama serve` asynchronously; if you need logs, run `ollama serve` in a visible shell instead.
+- If the server takes time to load models, allow several seconds before sending requests.
+
+### ▶️ Confirm Ollama is running
+
+Quick check (PowerShell). If Ollama isn't responding this will start `ollama serve` for you.
+
+```powershell
+# Try a quick API check; if it fails, start ollama serve and re-check
+try {
+  Invoke-RestMethod -Uri 'http://localhost:11434/api/tags' -TimeoutSec 2 | Out-Null
+  Write-Output 'Ollama is running (200)'
+} catch {
+  Write-Output 'Ollama not responding — starting ollama serve...'
+  # Starts ollama in a new process (ensure `ollama` is in PATH)
+  Start-Process -FilePath 'ollama' -ArgumentList 'serve' -WindowStyle Hidden
+  Start-Sleep -Seconds 3
+  # Re-check the API once the server has started
+  Invoke-RestMethod -Uri 'http://localhost:11434/api/tags'
+}
+```
+
+Alternatively, the original Python one-liner (requires `requests`):
+
+```powershell
+python -c "import requests; print(requests.get('http://localhost:11434/api/tags').status_code)"
+```
+
+Expected output: `200`
+
+If you get `ModuleNotFoundError: requests`, run:
+
+```powershell
+pip install requests
+```
 
 ---
 
-## Usage (CLI)
+## 🚀 Usage (CLI)
 
 ### 1) Put resumes in `./resumes`
 
@@ -147,7 +222,7 @@ Saved: output\tailored_resume.docx
 
 ---
 
-## Prompts (Two-Prompt System)
+## 🧠 Prompts (Two-Prompt System)
 
 ### 1) `app/prompts/work_experience_rewriter.txt`
 

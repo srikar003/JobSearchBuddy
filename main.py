@@ -55,6 +55,7 @@ def pick_template_resume(texts_by_file: dict[str, str]) -> tuple[str, str]:
 
 
 def main():
+    MODEL_NAME = "gpt-oss:20b-cloud" #update with your model of choice, e.g. "gpt-oss:20b-cloud" or "llama3.1:8b"
     parser = argparse.ArgumentParser(description="JobSearchBuddy (v1) - Template-anchored rewrite")
     parser.add_argument("--resumes", required=True, help="Folder containing .pdf/.docx resumes")
     parser.add_argument("--job-description", required=True, help="Path to job description .txt file")
@@ -104,7 +105,7 @@ def main():
     exp_evidence = build_experience_evidence(roles)
     edu_evidence = build_education_evidence(edus)
 
-    writer = ResumeWriter(config=ResumeWriterConfig(model="llama3.1:8b", timeout_s=900))
+    writer = ResumeWriter(config=ResumeWriterConfig(model=MODEL_NAME, timeout_s=900))
 
     rewritten_work = writer.generate_from_prompt_file(
         "./app/prompts/work_experience_rewriter.txt",
