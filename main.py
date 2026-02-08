@@ -3,6 +3,15 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 from collections import defaultdict
+import os
+
+# Load .env early so `MODEL_NAME` can be read from .env if present
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv()
+except Exception:
+    pass
 
 from app.core.extractor import ResumeExtractor
 from app.core.docx_exporter import DocxExporter
@@ -55,7 +64,8 @@ def pick_template_resume(texts_by_file: dict[str, str]) -> tuple[str, str]:
 
 
 def main():
-    MODEL_NAME = "gpt-oss:20b-cloud" #update with your model of choice, e.g. "gpt-oss:20b-cloud" or "llama3.1:8b"
+    # Model selection: prefer environment variable `MODEL_NAME`, fallback to this default.
+    MODEL_NAME = os.getenv("MODEL_NAME", "gpt-oss:20b-cloud")
     parser = argparse.ArgumentParser(description="JobSearchBuddy (v1) - Template-anchored rewrite")
     parser.add_argument("--resumes", required=True, help="Folder containing .pdf/.docx resumes")
     parser.add_argument("--job-description", required=True, help="Path to job description .txt file")

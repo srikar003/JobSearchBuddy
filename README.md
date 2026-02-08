@@ -96,7 +96,6 @@ ollama pull llama3.1:8b
 ```
 
 (You can switch models by updating `ResumeWriterConfig(model=...)`).
-(You can switch models by updating `ResumeWriterConfig(model=...)`).
 
 ### 🔧 Managing models & running Ollama in background
 
@@ -112,6 +111,34 @@ ollama pull gpt-oss:20b-cloud
 ```powershell
 ollama list
 ```
+
+### 🧪 Nomic `nomic-embed-text` — pull & test
+
+If you plan to use `nomic-embed-text` for embeddings, pull and test it with these steps.
+
+- **Attempt to pull the model** (model name can vary by registry):
+
+```powershell
+ollama pull nomic-embed-text
+```
+
+- **Quick embedding test** (replace model name if different):
+
+PowerShell:
+```powershell
+Invoke-RestMethod -Method POST -Uri 'http://localhost:11434/api/embeddings' -Body (@{ model='nomic-embed-text'; prompt='hello world' } | ConvertTo-Json) -ContentType 'application/json'
+```
+
+curl (bash):
+```bash
+curl -s -X POST "http://localhost:11434/api/embeddings" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"nomic-embed-text","prompt":"hello world"}'
+```
+
+If the request returns a JSON object containing an `embedding` array, the model is available and working.
+
+If you see `model not found`, confirm the exact model name available in your Ollama model registry or use an alternative embedding provider.
 
 - **Run the Ollama server in the background (Windows PowerShell):**
 
@@ -135,21 +162,6 @@ writer = ResumeWriter(config=ResumeWriterConfig(model=MODEL_NAME, timeout_s=900)
 ```
 
 Replace the string with any model you have pulled (for example `gpt-oss:20b-cloud`).
-
-- **Switch the model used by the tool (without editing code):** set an environment variable and read it from `main.py`.
-
-PowerShell:
-```powershell
-python main.py --resumes ./resumes --job-description jd.txt --output ./output/tailored_resume.docx
-```
-
-bash (WSL / macOS / Linux):
-```bash
-python main.py --resumes ./resumes --job-description jd.txt --output ./output/tailored_resume.docx
-```
-
-Minimal example (add to `main.py` before constructing `ResumeWriterConfig`):
-
 
 Notes:
 - Ensure `ollama` is on your PATH so the `Start-Process` call succeeds.
