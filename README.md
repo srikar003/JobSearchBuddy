@@ -1,4 +1,4 @@
-# JobSearchBuddy (Prototype) — Template-Anchored Resume Tailoring (v1)
+# JobSearchBuddy — Template-Anchored Resume Tailoring (v1)
 
 JobSearchBuddy is a **local, privacy-first** prototype that helps job seekers tailor their resume to a job description using **Ollama** (local LLM). It reads multiple resumes from a folder, builds evidence from all of them, rewrites only specific sections using focused prompts, and injects the rewritten sections into a chosen “template resume” to preserve formatting/structure.
 
